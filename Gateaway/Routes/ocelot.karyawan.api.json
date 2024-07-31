@@ -1,0 +1,139 @@
+{
+
+  "Routes": [
+
+    {
+      "DownstreamPathTemplate": "/api/karyawan/get-all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/karyawan/get-all",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "karyawan"
+    },
+    {
+      "DownstreamPathTemplate": "/api/karyawan/detail/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/karyawan/detail/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "karyawan"
+    },
+    {
+      "DownstreamPathTemplate": "/api/karyawan/create",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/karyawan/create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "karyawan"
+    },
+    {
+      "DownstreamPathTemplate": "/api/karyawan/update",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/karyawan/update",
+      "UpstreamHttpMethod": [ "PATCH" ],
+      "SwaggerKey": "karyawan"
+    },
+    {
+      "DownstreamPathTemplate": "/api/karyawan/delete",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/karyawan/delete",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "SwaggerKey": "karyawan"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/absensi/get-all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/absensi/get-all",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "karyawan"
+    },
+    {
+      "DownstreamPathTemplate": "/api/absensi/detail/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/absensi/detail/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "karyawan"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/absensi/detail-karyawan/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/absensi/detail-karyawan/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "karyawan"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/absensi/absen-in/{idKaryawan}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/absensi/absen-in/{idKaryawan}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "karyawan"
+    },
+    {
+      "DownstreamPathTemplate": "/api/absensi/absen-out/{idKaryawan}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7058
+        }
+      ],
+      "UpstreamPathTemplate": "/absensi/absen-out/{idKaryawan}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "karyawan"
+    }
+  ]
+}

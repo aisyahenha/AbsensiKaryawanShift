@@ -1,0 +1,27 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "user",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "User.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7081/swagger/v1/swagger.json"
+        }
+      ]
+
+    },
+    {
+      "Key": "karyawan",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Karyawan.API",
+          "Version": "1.0",
+          "Url": "https://localhost:7058/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

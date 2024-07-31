@@ -64,7 +64,7 @@ Tabel **Karyawan** digunakan untuk menyimpan informasi tentang karyawan. Berikut
 - **Address**: Tipe data string, digunakan untuk menyimpan alamat karyawan.
 - **DateOfBirth**: Tipe data date, digunakan untuk menyimpan tanggal lahir karyawan.
 - **Position**: Tipe data string, digunakan untuk menyimpan posisi atau jabatan karyawan.
-- **Shift**: Tipe data string, digunakan untuk menyimpan shift kerja karyawan.
+- **Shift**: Tipe data bool, digunakan untuk menyimpan shift kerja karyawan.
 - **ShiftDescription**: Tipe data string, digunakan untuk menyimpan deskripsi shift kerja karyawan.
 - **CreatedAt**: Tipe data datetime, digunakan untuk menyimpan waktu pembuatan data karyawan.
 - **UpdatedAt**: Tipe data datetime, digunakan untuk menyimpan waktu terakhir data karyawan diperbarui.
@@ -78,7 +78,7 @@ Tabel **Absensi** digunakan untuk menyimpan informasi tentang absensi karyawan. 
 - **StatusMasuk**: Tipe data string, digunakan untuk menyimpan status absensi masuk.
 - **TimeOut**: Tipe data time, digunakan untuk menyimpan waktu absensi keluar.
 - **StatusKeluar**: Tipe data string, digunakan untuk menyimpan status absensi keluar.
-- **SelisihJamMasukKeluar**: Tipe data time, digunakan untuk menyimpan selisih waktu antara absensi masuk dan keluar.
+- **SelisihJamMasukKeluar**: Tipe data integer, digunakan untuk menyimpan selisih jam antara absensi masuk dan keluar.
 
 ### Relasi Antar Tabel
 - **Karyawan (1) - (n) Absensi**: Satu karyawan dapat memiliki banyak data absensi, yang diidentifikasi oleh kolom **KaryawanId** di tabel **Absensi** yang mengacu pada kolom **Id** di tabel **Karyawan**.
